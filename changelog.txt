@@ -1,0 +1,45 @@
+PERCOBAAN PERTAMAA
+PERCOBAAN KEDUA
+coba
+cb
+agak capek
+capek.
+PAK UDAHLAH GAKUAT
+ini pasti 100
+cb
+angkat tangan sama pbo
+smoga 100
+
+
+      "input": "lecturer-add#0114129002#Iustisia Natalia Simbolon#IUS#iustisia.simbolon@del.ac.id#Informatics
+      course-add#12S1101#Dasar Sistem Informasi#3#D#IUS
+      student-add#12S20001#Marcelino Manalu#2020#Information Systems
+      student-add#12S20002#Yoga Sihombing#2020#Information Systems
+      student-add#12S20003#Marcel Simanjuntak#2020#Information Systems
+      enrollment-add#12S1101#12S20001#2020/2021#odd
+      enrollment-add#12S1101#12S20002#2020/2021#odd
+      enrollment-add#12S1101#12S20003#2020/2021#odd
+      enrollment-remedial#12S1101#12S20003#2020/2021#odd#A
+      enrollment-grade#12S1101#12S20001#2020/2021#odd#B
+      enrollment-grade#12S1101#12S20002#2020/2021#odd#B
+      enrollment-grade#12S1101#12S20003#2020/2021#odd#B
+      student-details#12S20001
+      student-details#12S20002
+      student-details#12S20003
+      enrollment-remedial#12S1101#12S20003#2020/2021#odd#AB
+      student-details#12S20003
+      ---
+      ",
+      "output": "12S20001|Marcelino Manalu|2020|Information Systems|3.00|3
+      12S20002|Yoga Sihombing|2020|Information Systems|3.00|3
+      12S20003|Marcel Simanjuntak|2020|Information Systems|3.00|3
+      12S20003|Marcel Simanjuntak|2020|Information Systems|3.50|3
+      0114129002|Iustisia Natalia Simbolon|IUS|iustisia.simbolon@del.ac.id|Informatics
+      12S1101|Dasar Sistem Informasi|3|D|IUS (iustisia.simbolon@del.ac.id)
+      12S20001|Marcelino Manalu|2020|Information Systems
+      12S20002|Yoga Sihombing|2020|Information Systems
+      12S20003|Marcel Simanjuntak|2020|Information Systems
+      12S1101|12S20001|2020/2021|odd|B
+      12S1101|12S20002|2020/2021|odd|B
+      12S1101|12S20003|2020/2021|odd|AB(B)
+      ",
